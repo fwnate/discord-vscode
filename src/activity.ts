@@ -1,4 +1,4 @@
-import { debug, env, window, workspace } from 'vscode';
+import { debug, env, window } from 'vscode';
 import { CONFIG_KEYS, CURSOR_IMAGE_KEY, DEBUG_IMAGE_KEY, FAKE_EMPTY, IDLE_IMAGE_KEY, REPLACE_KEYS, VSCODE_IMAGE_KEY, VSCODE_INSIDERS_IMAGE_KEY } from './constants';
 import { log, LogLevel } from './logger';
 import { getConfig, getGit, resolveFileIcon, toLower, toTitle, toUpper } from './util';
